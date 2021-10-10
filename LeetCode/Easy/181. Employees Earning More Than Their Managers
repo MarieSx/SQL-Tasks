@@ -1,4 +1,4 @@
-# MySQL QUERIES 
+-- MySQL QUERIES 
 
 SELECT
     a.Name AS 'Employee'
@@ -11,7 +11,7 @@ WHERE
 ;
 
 
-# Thinking process
+--Thinking process
 
 # process ManagerId shows which Id is both employee and manager
 # need to self join
