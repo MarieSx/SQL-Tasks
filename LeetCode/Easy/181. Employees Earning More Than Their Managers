@@ -1,4 +1,4 @@
-# QUERIES 
+# MySQL QUERIES 
 
 SELECT
     a.Name AS 'Employee'
