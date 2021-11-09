@@ -13,7 +13,13 @@ Process:
 4. join table professor, schedule, course to get the target column
 5. make condition of deparment_id in course table <> department_id in professor table to elimite inside department teaching
 6. because the repeat same course in different semester shows in schedual table, should put DISTINCT from the begining of SELECT statement.
+
+
+Context consider:
+this problem is quite self-explanatory in the real life. If a tutor has both sessions with and without departments, some party may need this info to calculate how much time the tutors would be available for them to open a new course or arrange their time flexibly. In other cases, we can also generate the most popular products by retreiving product name, product sell location store/citym, sell unit. Make long-term product distinct, to display product only once, then order by DESC. 
+
 */
+
 
 
 Solution:
